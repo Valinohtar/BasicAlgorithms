@@ -8,7 +8,7 @@ for i in range(1, len(lst)):
         lst[j+1] = lst[j]
         j -= 1
     lst[j+1] = x
-lst.pop(0)
+lst.pop(0) #koper
 print(lst)
 
 
